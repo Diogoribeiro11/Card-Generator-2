@@ -1,1 +1,145 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  text-align: center;
+}
+
+button {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 5%;
+  height: 220px;
+  width: 170px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.spade {
+  padding: 5px;
+  color: black;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.spadeRight {
+  padding: 5px;
+  color: black;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.club {
+  padding: 5px;
+  color: black;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.clubRight {
+  padding: 5px;
+  color: black;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.diamond {
+  padding: 5px;
+  color: red;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.diamondRight {
+  padding: 5px;
+  color: red;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.heart {
+  padding: 5px;
+  color: red;
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.heartRight {
+  padding: 5px;
+  color: red;
+  text-align: right;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.number {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tinyNumber {
+  padding-left: 16px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.tinyNumberRight {
+  padding-right: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: right;
+}
+
+.redNumber {
+  color: red;
+}
+
+#add-card {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#add-card input {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  border-radius: 4px 0 0 4px;
+  box-sizing: border-box;
+  width: 300px;
+  float: left;
+  clear: both;
+}
+
+#add-card button {
+  border: 1px solid black;
+  background: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  width: 100px;
+  float: left;
+  margin: 20px 0;
+  border-left: 0;
+  color: white;
+}
+
+#add-card:after {
+  content: "";
+  display: block;
+  clear: both;
+}
