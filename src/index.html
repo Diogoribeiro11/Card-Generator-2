@@ -2,28 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
     />
-    <link rel="shortcut icon" href="./4geeks.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+
+    <title>Conditional Card</title>
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
-      </div>
+    <div class="card" id="card">
+      <h1 id="suite"></h1>
+      <p id="tinyNumber"></p>
+      <h1 id="number"></h1>
+      <p id="tinyNumberRight"></p>
+      <h1 id="suiteRight"></h1>
     </div>
+
+    <button type="button" class="btn btn-outline-dark btn-lg" id="button">
+      Random Card Generator
+    </button>
+
+    <form id="add-card">
+      <input id="width" type="text" placeholder="Add the width..." />
+      <button>Add</button>
+      <input id="height" type="text" placeholder="Add the height..." />
+      <button>Add</button>
+    </form>
+
+    <script src="app.js"></script>
   </body>
 </html>
